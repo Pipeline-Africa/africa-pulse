@@ -55,16 +55,17 @@ git clone https://github.com/<your-username>/africa-pulse.git
 cd africa-pulse
 ```
 
-### 2. Create a branch
+### 2. Pick an issue and create a branch
 
-Use a focused branch name:
+Every change should start from an issue. Comment on the issue to say you're working on it, and note its number: you will use it in your branch, commits and pull request.
+
+Name your branch `<type>/<issue-number>-<short-description>`:
 
 ```text
-feature/weather-connector
-feature/city-entity-resolution
-fix/duplicate-ingestion
-docs/source-register
-test/fx-validation
+feature/42-weather-connector
+fix/23-duplicate-ingestion
+docs/1-source-open-meteo
+test/14-open-meteo-fixtures
 ```
 
 Avoid working directly on `main`.
@@ -81,16 +82,18 @@ As the project tooling matures, the exact commands will be documented here.
 
 ### 5. Commit clearly
 
-Prefer short, descriptive commit messages following [Conventional Commits](https://www.conventionalcommits.org/):
+Prefer short, descriptive commit messages following [Conventional Commits](https://www.conventionalcommits.org/), ending with the issue number:
 
 ```text
-feat: add weather source connector
-fix: prevent duplicate mobility observations
-docs: document city entity model
-test: add FX freshness checks
+feat: add weather source connector (#42)
+fix: prevent duplicate mobility observations (#23)
+docs: add Open-Meteo source register entry (#1)
+test: add Open-Meteo response fixtures (#14)
 ```
 
 ### 6. Open a pull request
+
+Start the description with `Closes #<issue-number>` (for example `Closes #1`). GitHub then links the pull request to the issue and closes the issue when the pull request is merged. The pull request template includes this line.
 
 Explain:
 
