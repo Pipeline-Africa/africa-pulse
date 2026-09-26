@@ -40,3 +40,6 @@ secrets/
 
 # Local infrastructure
 docker-data/
+
+# Local issue drafts (not part of the repository)
+issue-drafts/

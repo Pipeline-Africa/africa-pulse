@@ -13,3 +13,4 @@ Each ADR should cover:
 ## Index
 
 - [0001 — Record architecture decisions](0001-record-architecture-decisions.md)
+- [0002 — Use Python as the primary implementation language](0002-use-python.md)
