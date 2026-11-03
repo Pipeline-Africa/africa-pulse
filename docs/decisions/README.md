@@ -14,3 +14,4 @@ Each ADR should cover:
 
 - [0001 — Record architecture decisions](0001-record-architecture-decisions.md)
 - [0002 — Use Python as the primary implementation language](0002-use-python.md)
+- [0003 — Use Dagster for orchestration](0003-orchestration.md) (proposed)
