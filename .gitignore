@@ -12,6 +12,7 @@ __pycache__/
 .ruff_cache/
 .venv/
 venv/
+.python-version
 
 # OS / editors
 .DS_Store
