@@ -14,40 +14,42 @@ Johannesburg
 
 ## Aliases and local names
 
-Joburg, Jozi, eGoli, City of Gold, Gauteng.
+Joburg, Jozi, eGoli, and City of Gold ([Wikipedia](https://en.wikipedia.org/wiki/Johannesburg)).
 
 ## Coordinates
 
-| Latitude    | Longitude   | Representative point  | Source                                                  |
-|-------------|-------------|-----------------------|---------------------------------------------------------|
-| 26.20444° S | 28.04556° E | City centre (old CBD) | [Wikipedia](https://en.wikipedia.org/wiki/Johannesburg) |
+| Latitude  | Longitude | Representative point                                               | Source                                                        |
+|-----------|-----------|--------------------------------------------------------------------|---------------------------------------------------------------|
+| -26.20444 | 28.04556  | City centre (old CBD)                                              | [Wikipedia](https://en.wikipedia.org/wiki/Johannesburg)       |
+| -26.2023  | 28.0436   | GeoNames feature point for Johannesburg (separate gazetteer point) | [GeoNames](https://www.geonames.org/993800/johannesburg.html) |
 
 ## Time zone
 
-| IANA time zone        | UTC offset | Daylight saving time |
-|-----------------------|------------|----------------------|
-| `Africa/Johannesburg` | UTC+02:00  | None                 |
+| IANA time zone               | UTC offset | Daylight saving time | Source                                                                                                                                            |
+|------------------------------|------------|----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| `Africa/Johannesburg` (SAST) | UTC+02:00  | None currently       | [GeoNames](https://www.geonames.org/993800/johannesburg.html); [timeanddate.com](https://www.timeanddate.com/time/zone/south-africa/johannesburg) |
 
 ## Identifiers
 
-| System                 | Identifier         | Link                                                                               |
-|------------------------|--------------------|------------------------------------------------------------------------------------|
-| GeoNames               | 993800             | [geonames.org/993800](https://www.geonames.org/993800)                             |
-| Wikidata               | Q34647             | [wikidata.org/wiki/Q34647](https://www.wikidata.org/wiki/Q34647)                   |
-| OpenStreetMap relation | 594508             | [openstreetmap.org/relation/594508](https://www.openstreetmap.org/relation/594508) |
-| Other                  | OSM node 261833893 | [openstreetmap.org/node/261833893](https://www.openstreetmap.org/node/261833893)   |
+| System                 | Identifier         | Link                                                                               | Scope                                                |
+|------------------------|--------------------|------------------------------------------------------------------------------------|------------------------------------------------------|
+| GeoNames               | 993800             | [geonames.org/993800](https://www.geonames.org/993800)                             | Johannesburg feature point; not a municipal boundary |
+| Wikidata               | Q2346838           | [wikidata.org/wiki/Q2346838](https://www.wikidata.org/wiki/Q2346838)               | City of Johannesburg Metropolitan Municipality       |
+| Wikidata               | Q34647             | [wikidata.org/wiki/Q34647](https://www.wikidata.org/wiki/Q34647)                   | Historic city / main place                           |
+| OpenStreetMap relation | 594508             | [openstreetmap.org/relation/594508](https://www.openstreetmap.org/relation/594508) | City of Johannesburg Metropolitan Municipality       |
+| Other                  | OSM node 261833893 | [openstreetmap.org/node/261833893](https://www.openstreetmap.org/node/261833893)   | Historic city point                                  |
 
 ## Administrative Context
 
-Officially, "Johannesburg" is the **City of Johannesburg Metropolitan Municipality**, a single Category A (metropolitan) municipality. It is not a province or a group of local government areas. Category A metros sit outside South Africa's district municipalities, so no district council sits between the metro and the province.
+Officially, "Johannesburg" is the **City of Johannesburg Metropolitan Municipality**, a Category A metropolitan municipality under the [Local Government: Municipal Structures Act](https://www.gov.za/documents/local-government-municipal-structures-act) ([municipal profile](https://municipalities.co.za/metropolitans/view/2/City-of-Johannesburg-Metropolitan-Municipality)). It is not a province or a group of local government areas. Category A metros sit outside South Africa's district municipalities, so no district council sits between the metro and the province ([Act](https://www.gov.za/documents/local-government-municipal-structures-act)).
 
-The name is used for three different-sized areas:
+The name is used for several different-sized areas:
 
 ### 1. City of Johannesburg Metropolitan Municipality (official local government)
 - **Status:** Category A metropolitan municipality; the legal "city"
 - **Area:** 1,642.6 km²
-- **Population:** 4,803,262 (2022 census)
-- **Internal divisions:** Seven administrative regions (A–G) since 2006, replacing eleven numbered regions created in 2000. Regions have no separate councils.
+- **Population:** 4,803,262 (2022 census: [Stats SA Census 2022](https://census.statssa.gov.za/))
+- **Internal divisions:** Seven administrative regions (A–G) since 2006, replacing eleven numbered regions created in 2000. Regions have no separate councils ([Wikipedia](https://en.wikipedia.org/wiki/Johannesburg)).
 - **Identifiers:** OSM relation 594508; Wikidata Q2346838
 
 ### 2. Johannesburg "main place" (historic city)
@@ -55,11 +57,11 @@ The name is used for three different-sized areas:
 - **History:** Established 1886; city status 1928
 - **Area:** 334.81 km²
 - **Population:** 957,441 (2011 census)
-- **Identifiers:** Wikidata Q34647; OSM node 261833893; GeoNames 993800
+- **Identifiers:** Wikidata Q34647; OSM node 261833893
 
 ### 3. Wider urban area
 - **Status:** No administrative status
-- **Population:** ~7.9 million (2011) to ~15 million (2025), depending on whether neighboring metros such as Ekurhuleni and the West Rand are included
+- **Population:** Wider-area estimates range from 7,860,781 (2011) to about 15 million (2022); estimates use different geographies and are not directly comparable. The 2022 figure is also the Gauteng Province census population ([Johannesburg](https://en.wikipedia.org/wiki/Johannesburg); [Stats SA Census 2022](https://census.statssa.gov.za/)).
 
 ### Larger unit
 Johannesburg is in **Gauteng Province**, one of South Africa's nine provinces, and is Gauteng's provincial capital.
@@ -69,11 +71,12 @@ Republic of South Africa → Gauteng Province → City of Johannesburg Metropoli
 
 ## Competing definitions
 
-| Definition                                     | Area        | Population | Year        | Source                                                                                                                                                                      |
-|------------------------------------------------|-------------|------------|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Historic city ("main place", census unit)      | 334.81 km²  | 957,441    | 2011 census | [Wikipedia, "Johannesburg"](https://en.wikipedia.org/wiki/Johannesburg)                                                                                                     |
-| City of Johannesburg Metropolitan Municipality | 1,642.6 km² | 4,803,262  | 2022 census | [Wikipedia, "Johannesburg"](https://en.wikipedia.org/wiki/Johannesburg) (citing Stats SA)                                                                                   |
-| Gauteng Province                               | 18,178 km²  | 15,099,422 | 2022 census | [Wikipedia, "List of South African provinces by population density"](https://en.wikipedia.org/wiki/List_of_South_African_provinces_by_population_density) (citing Stats SA) |
+| Definition                                     | Area           | Population                 | Year        | Source                                                                                                                                                                                                                                                                   |
+|------------------------------------------------|----------------|----------------------------|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Historic city ("main place", census unit)      | 334.81 km²     | 957,441                    | 2011 census | [Wikipedia, "Johannesburg"](https://en.wikipedia.org/wiki/Johannesburg)                                                                                                                                                                                                  |
+| City of Johannesburg Metropolitan Municipality | 1,642.6 km²    | 4,803,262                  | 2022 census | [Stats SA Census 2022](https://census.statssa.gov.za/)                                                                                                                                                                                                                   |
+| Wider urban-area estimates (boundaries differ) | Not comparable | 7,860,781–about 15 million | 2011–2022   | [Wikipedia, "Johannesburg"](https://en.wikipedia.org/wiki/Johannesburg); [Stats SA Census 2022](https://census.statssa.gov.za/). The upper estimate matches Gauteng Province's census population, so the two should not be treated as a like-for-like urban-area series. |
+| Gauteng Province                               | 18,178 km²     | 15,099,422                 | 2022 census | [Stats SA Census 2022](https://census.statssa.gov.za/)                                                                                                                                                                                                                   |
 
 ## Coverage notes
 
@@ -108,4 +111,4 @@ Republic of South Africa → Gauteng Province → City of Johannesburg Metropoli
 
 ## Researched by
 
-[dev-mileba](https://github.com/dev-mileba) on 13/10/2026.
+[dev-mileba](https://github.com/dev-mileba) on 2026-10-13.
